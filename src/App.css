@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.btn-wrapper button{
+  background: red;
+  border: 0px;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+.btn-wrapper button:hover{
+  background: rgb(211, 43, 43);
+  transition: ease-in 0.2s;
+  transition: ease-out 0.2s;
+  box-shadow: 1px 1px 10px 3px rgb(149, 135, 135);
+}
+
+.img-wrapper img{
+  margin-top: -10px;  
+}
+.cart-wrapper{
+  height: 225px;
+  width: 500px;
+  border: 1px solid #ccc;
+  margin-left: 20%;
+}
+.item{
+  float: left;
+  width:190px ;
+  padding: 20px;
+}
+.add-to-cart img{
+width: 100px;
+position: absolute;
+right: 10%;
+top: 1%;
+}
